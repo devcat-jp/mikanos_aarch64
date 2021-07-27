@@ -10,6 +10,8 @@ https://github.com/uchan-nos/mikanos
 # 環境構築の参考
 ## Dockerコンテナ情報
 https://github.com/sarisia/mikanos-docker
+## AArch64対応情報
+https://github.com/uchan-nos/os-from-zero/wiki/kaz399;-AArch64%E5%90%91%E3%81%91%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86
 
 # 開発環境
 ## メインPC
