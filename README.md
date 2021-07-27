@@ -1,5 +1,5 @@
 # 概要
-ゼロからのOS自作入門の勉強記録です
+ゼロからのOS自作入門の勉強記録です  
 X86_64ではなくAAech64で進めることを目標にしています。
 
 ## 本
@@ -20,8 +20,8 @@ https://github.com/sarisia/mikanos-docker
 2. ダウンロードしたフォルダをVScodeで開く
 
 ## ターゲットボード
-「Raspberry Pi 3 Model B+」を想定する。
-上記対応のUEFIは下記から入手できる。
+「Raspberry Pi 3 Model B+」を想定する。  
+上記対応のUEFIは下記から入手できる。  
 [Raspberry Pi 3 UEFI Firmware Images](https://github.com/pftf/RPi3)
 
 # AArch64対応メモ
