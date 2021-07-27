@@ -27,8 +27,8 @@ https://github.com/sarisia/mikanos-docker
 # AArch64対応メモ
 ## 第2章
 AArch64対応のため「Conf/target.txt」の
-'''
+```
 TARGET_ARCH     X64
 TARGET_ARCH     AARCH64
-'''
+```
 
