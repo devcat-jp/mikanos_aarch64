@@ -37,7 +37,7 @@ build手順は本と同じ、AArch64対応のため下記2ファイルに修正�
 + SUPPORTED_ARCHITECTURES        = AARCH64
 ```
 のように修正しbuildする。  
-すると「~/edk2/Build/MikanLoaderAARCH64/DEBUG_CLANG38/AARCH64/Loader.efi」が生成される。
-このファイルをラズパイのUEFI用に作成したSDカードの「efi/boot/bootaa64.efi」として配置する。
+すると「~/edk2/Build/MikanLoaderAARCH64/DEBUG_CLANG38/AARCH64/Loader.efi」が生成される。  
+このファイルをラズパイのUEFI用に作成したSDカードの「efi/boot/bootaa64.efi」として配置する。  
 後はSDを挿入して起動すればよい
 
