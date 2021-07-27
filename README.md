@@ -26,9 +26,18 @@ https://github.com/sarisia/mikanos-docker
 
 # AArch64対応メモ
 ## 第2章
-AArch64対応のため「Conf/target.txt」の
+build手順は本と同じ、AArch64対応のため下記2ファイルに修正を加える
 ```
-TARGET_ARCH     X64
-TARGET_ARCH     AARCH64
+■ ~/edk2/Conf/target.txt (本の手順で作成)
+- TARGET_ARCH           = X64
++ TARGET_ARCH           = AARCH64
+
+■ MikanLoaderPkg/MikanLoaderPkg.dsc　（cloneしたものは修正済み）
+- SUPPORTED_ARCHITECTURES        = X64
++ SUPPORTED_ARCHITECTURES        = AARCH64
 ```
+のように修正しbuildする。  
+すると「~/edk2/Build/MikanLoaderAARCH64/DEBUG_CLANG38/AARCH64/Loader.efi」が生成される。
+このファイルをラズパイのUEFI用に作成したSDカードの「efi/boot/bootaa64.efi」として配置する。
+後はSDを挿入して起動すればよい
 
